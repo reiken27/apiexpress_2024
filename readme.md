@@ -1,0 +1,79 @@
+## API con express creada con NodeJS
+
+La api no requiere clave, se puede ejecutar con
+node app.js
+Repsotorio GitHub: https://github.com/reiken27/apiexpress_2024.git
+
+Endpoint "Obtener un Pokémon por ID" - Evelin Paumgertner:
+
+1 - Registro de ID Pokemons:
+
+http://localhost:3000/id_pokemon
+
+2 - Buscar pokemon por ID:
+
+http://localhost:3000/id_pokemon/1
+
+3 - Query params:
+
+http://localhost:3000/id_pokemon?limit=10&page=2
+
+Endpoint "Obtener un Pokémon por Nombre de pokemon" - Emiliano Correa:
+
+1 - Registro de nombres:
+
+http://localhost:3000/pokemon
+
+2 - Buscar pokemon por nombre de pokemon:
+
+http://localhost:3000/pokemon/pikachu
+
+3 - Query params:
+
+http://localhost:3000/pokemon?limit=10&page=2
+
+Endpoint "Obtener listas de movimientos " - Gaston Ivan Haag Gomez:
+
+1 - Registro de movimientos:
+
+http://localhost:3000/moves
+
+2 - Buscar movimientos por ID y nombre (en ingles y en caso de ser 2 palabras, con guion):
+
+http://localhost:3000/moves/1
+
+http://localhost:3000/moves/grass-knot
+
+3 - Query params:
+
+http://localhost:3000/moves?limit=50&page=1
+
+Endpoint "Obtener Habilidades por nombre o id" - Facundo Reiseng:
+
+1 - Registro de habilidades:
+
+http://localhost:3000/ability
+
+2 - Buscar habilidades por nombre (en ingles y en caso de ser dos o mas palabras, con guion) o id:
+
+http://localhost:3000/ability/1
+
+http://localhost:3000/ability/stench
+
+http://localhost:3000/ability/flash-fire
+
+3 - Query params:
+
+http://localhost:3000/ability?limit=15&page=3
+
+
+Endpoint "Obtener un Pokémon por Item" - Neisa Belleggia:
+1 - Registro de Item Pokemons:
+http://localhost:3000/item
+2 - Buscar item específico por ID:
+http://localhost:3000/item/idItem  (ejemplo http://localhost:3000/item/1)
+3 - Query params:
+http://localhost:3000/item?limit=50&page=1
+
+
+
